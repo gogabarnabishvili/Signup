@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Signup</title>
+</head>
+
+<body>
+    <main class="displayFlex ">
+        <button class="darkMode darkModeBtn" onclick="darkMode()">Dark Mode</button>
+        <section class="displayFlex sectionForm darkMode">
+            <header>
+                <h1>Signup</h1>
+                <p>There is no charge upon registration!</p>
+            </header>
+            <div class="regForm displayFlex darkModeForm">
+                <form action="" class="displayFlex ">
+                    <label for="">
+                    Email Address
+                    <input  type="email" name="email" id="email" required>
+                </label>
+                    <!-- <form action="/action_page.php" method="get"> -->
+                    <label for="Country">Country
+                            <input  list="Countrys" name="Country" id="Country" value="Germany">
+                            <datalist id="Countrys">
+                            <option value="Georgia">
+                            <option value="Germany">
+                            <option value="Argentina">
+                            <option value="Italy">
+                            <option value="Qatar">
+                            </datalist>
+                        </label>
+                    <div class="smollDiv displayFlex">
+                        <!-- </label> -->
+                        <label for="" class="smollIput">
+                        City
+                        <input  type="text" name="" id="" placeholder="Berlin" required>
+                    </label>
+                        <label for="" class="smollIput">
+                        Zip Code
+                        <input  type="number" name="" id="" placeholder="10178" required>
+                    </label>
+                    </div>
+                    <input class="btnInput" type="submit" value="Signup now">
+                </form>
+
+            </div>
+            <div class="joinMore displayFlex">
+                <button>Signup with Facebook</button>
+                <button>Signup with gmail</button>
+            </div>
+        </section>
+    </main>
+    <script src="scrypt.js"></script>
+</body>
+
+</html>

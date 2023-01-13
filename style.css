@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background: url("Illustration.png") no-repeat fixed center;
+    justify-content: space-between;
+}
+
+.displayFlex {
+    display: flex;
+}
+
+.darkMode {
+    width: 10%;
+    height: 7vh;
+    background-color: #fff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    margin: 2.5% 30px;
+    cursor: pointer;
+}
+
+.sectionForm {
+    flex-direction: column;
+    width: 40%;
+    height: 90vh;
+    gap: 20px;
+    align-items: center;
+    background-color: #fff;
+    margin: 2.5%;
+    border-radius: 5px;
+}
+
+header {
+    width: 80%;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: 400;
+}
+
+header p {
+    font-size: 16px;
+    color: #748AA1;
+}
+
+.regForm {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.regForm form {
+    flex-direction: column;
+    width: 85%;
+    height: 85%;
+    gap: 20px;
+}
+
+.smollDiv {
+    justify-content: space-between;
+}
+
+.regForm form label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    font-size: 12px;
+    color: #748AA1;
+}
+
+.regForm form input {
+    height: 51px;
+    border: 1px solid #EBEDF4;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+.btnInput {
+    background-color: #29CB97;
+    color: #fff;
+}
+
+.smollIput {
+    width: 45%;
+}
+
+.joinMore {
+    width: 70%;
+    justify-content: space-between;
+}
+
+.joinMore button {
+    width: 40%;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #255B9B;
+}
+
+.joinMore button:last-of-type {
+    background-color: #00ADEE;
+}
+
+
+/* dark mode */
+
+.darkMode {
+    background-color: black;
+}
+
+.darkModeForm {
+    background-color: #292E33;
+}
+
+.darkInput {
+    color: #fff;
+    background-color: #33393F;
+}
+
+.darkModeBtn {
+    background-color: #fff;
+    color: black;
+}
