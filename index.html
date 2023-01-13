@@ -20,11 +20,16 @@
             <div class="regForm displayFlex">
                 <form action="" class="displayFlex ">
                     <label for="">
-                    Email Address
-                    <input  type="email" name="email" id="email" required>
+                        Email Address
+                        <p class="errorTextEmail"></p>
+                    
+                    <input  type="email" name="email" id="email">
                 </label>
                     <!-- <form action="/action_page.php" method="get"> -->
-                    <label for="Country">Country
+                    <label for="Country">
+                        Country
+                        <p class="errorText">plaze chak country !</p>
+                        
                             <input  list="Countrys" name="Country" id="Country" value="Germany">
                             <datalist id="Countrys">
                             <option value="Georgia">
@@ -38,11 +43,13 @@
                         <!-- </label> -->
                         <label for="" class="smollIput">
                         City
-                        <input  type="text" name="" id="" placeholder="Berlin" required>
+                        <p class="errorText">please chack city !</p>
+                        <input  type="text" name="city" id="city" placeholder="" required>
                     </label>
                         <label for="" class="smollIput">
                         Zip Code
-                        <input  type="number"name="" id="" placeholder="10178" required>
+                        <p class="errorText">please chack zip !</p>
+                        <input  type="number"name="zipCode" id="zipCode" placeholder="" required>
                     </label>
                     </div>
                     <input class="btnInput" type="submit" value="Signup now">

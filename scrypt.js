@@ -19,3 +19,19 @@ function darkMode() {
         fomrInput[i].classList.toggle("darkInput")
     }
 }
+
+const emailErr = document.querySelector(".errorTextEmail")
+fomrInput[1].addEventListener("click", () => {
+    fomrInput[1].value = ""
+})
+console.log(emailErr)
+fomrInput[4].addEventListener("click", () => {
+        if (fomrInput[0] === "") {
+            emailErr.innerHTML = "please chack email !";
+        }
+    })
+    // const form = document.querySelectorAll("form");
+    // console.log(fomrInput[4])
+    // fomrInput[4].addEventListener("keyup", () => {
+    //     if (fomrInput[0] === "")
+    // })

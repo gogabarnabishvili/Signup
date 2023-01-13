@@ -158,3 +158,33 @@ input::-webkit-inner-spin-button {
     background-color: #29CB97;
     color: #fff;
 }
+
+.errorText,
+.errorTextEmail {
+    font-size: 12px;
+    color: red;
+    font-weight: 700;
+}
+
+
+/* responsive */
+
+@media (max-width:940px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sectionForm {
+        width: 90%;
+        height: 100%;
+        margin-top: 0px;
+        opacity: 0.9;
+    }
+    header {
+        width: 40%;
+        text-align: center;
+    }
+    .darkModeBtn {
+        width: 30%;
+    }
+}
