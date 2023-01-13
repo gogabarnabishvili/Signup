@@ -36,6 +36,7 @@ main {
     background-color: #fff;
     margin: 2.5%;
     border-radius: 5px;
+    transition: 2s;
 }
 
 header {
@@ -45,6 +46,7 @@ header {
 header h1 {
     font-size: 48px;
     font-weight: 400;
+    transition: 2s;
 }
 
 header p {
@@ -58,6 +60,7 @@ header p {
     width: 80%;
     height: 100%;
     border-radius: 5px;
+    transition: 2s;
 }
 
 .regForm form {
@@ -84,11 +87,11 @@ header p {
     border: 1px solid #EBEDF4;
     border-radius: 5px;
     padding-left: 15px;
+    transition: 2s;
 }
 
-.btnInput {
-    background-color: #29CB97;
-    color: #fff;
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
 }
 
 .smollIput {
@@ -119,19 +122,39 @@ header p {
 /* dark mode */
 
 .darkMode {
-    background-color: black;
+    background-color: #1F2327;
+    transition: 2s;
 }
 
 .darkModeForm {
     background-color: #292E33;
+    transition: 2s;
 }
 
 .darkInput {
     color: #fff;
     background-color: #33393F;
+    transition: 2s;
 }
 
 .darkModeBtn {
     background-color: #fff;
     color: black;
+    transition: 2s;
+}
+
+.darkColor {
+    color: #fff;
+    transition: 2s;
+}
+
+.darkBtn {
+    background-color: black;
+    color: #fff;
+    transition: 2s;
+}
+
+.btnInput {
+    background-color: #29CB97;
+    color: #fff;
 }
