@@ -36,8 +36,8 @@ fomrInput[4].addEventListener("click", (e) => {
     if (fomrInput[0].value === "") {
         emailErr.innerHTML = "Please enter an Email !";
         fomrInput[0].style.border = "1px solid red";
-    } else if (!isValidEmail(fomrInput[0])) {
-        emailErr.innerHTML = "The email does not end with ge !";
+    } else if (fomrInput[0] !== isValidEmail()) {
+        emailErr.innerHTML = "The email does not end with .ge !";
         fomrInput[0].style.border = "1px solid red";
     } else {
         fomrInput[0].style.border = "1px solid green"
